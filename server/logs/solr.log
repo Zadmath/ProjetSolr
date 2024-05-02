@@ -1,0 +1,116 @@
+2024-05-02 23:01:17.951 INFO  (main) [   ] o.e.j.u.log Logging initialized @924ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-05-02 23:01:18.020 WARN  (main) [   ] o.e.j.x.XmlConfiguration Deprecated method public void org.eclipse.jetty.rewrite.handler.RedirectRegexRule.setReplacement(java.lang.String) in file:///home/pernias/solr-8.3.0/server/etc/jetty.xml
+2024-05-02 23:01:18.061 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2024-05-02 23:01:18.061 WARN  (main) [   ] o.e.j.x.XmlConfiguration Deprecated method public void org.eclipse.jetty.server.ServerConnector.setSoLingerTime(int) in file:///home/pernias/solr-8.3.0/server/etc/jetty-http.xml
+2024-05-02 23:01:18.068 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+2024-05-02 23:01:18.084 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///home/pernias/solr-8.3.0/server/contexts/] at interval 0
+2024-05-02 23:01:18.253 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2024-05-02 23:01:18.259 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2024-05-02 23:01:18.259 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2024-05-02 23:01:18.261 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2024-05-02 23:01:18.310 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2024-05-02 23:01:18.315 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.3.0
+2024-05-02 23:01:18.315 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2024-05-02 23:01:18.315 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/pernias/solr
+2024-05-02 23:01:18.316 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2024-05-02T23:01:18.315963Z
+2024-05-02 23:01:18.349 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/pernias/solr/server/solr
+2024-05-02 23:01:18.353 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/pernias/solr/server/solr/solr.xml
+2024-05-02 23:01:18.403 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@53aac487, but no JMX reporters were configured - adding default JMX reporter.
+2024-05-02 23:01:18.609 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2024-05-02 23:01:18.715 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@c446b14[provider=null,keyStore=null,trustStore=null]
+2024-05-02 23:01:18.715 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@c446b14[provider=null,keyStore=null,trustStore=null]
+2024-05-02 23:01:18.840 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@42b21d99[provider=null,keyStore=null,trustStore=null]
+2024-05-02 23:01:18.841 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@42b21d99[provider=null,keyStore=null,trustStore=null]
+2024-05-02 23:01:18.951 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2024-05-02 23:01:18.953 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2024-05-02 23:01:18.998 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@53aac487
+2024-05-02 23:01:18.999 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@53aac487
+2024-05-02 23:01:19.000 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@53aac487
+2024-05-02 23:01:19.023 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /home/pernias/solr/server/solr
+2024-05-02 23:01:19.024 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [presse]
+2024-05-02 23:01:19.083 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.c.SolrResourceLoader [presse] Added 61 libs to classloader, from paths: [/home/pernias/solr/contrib/clustering/lib, /home/pernias/solr/contrib/extraction/lib, /home/pernias/solr/contrib/langid/lib, /home/pernias/solr/contrib/velocity/lib, /home/pernias/solr/dist]
+2024-05-02 23:01:19.103 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@463b4ac8{/solr,file:///home/pernias/solr-8.3.0/server/solr-webapp/webapp/,AVAILABLE}{/home/pernias/solr-8.3.0/server/solr-webapp/webapp}
+2024-05-02 23:01:19.115 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@4f9a2c08{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2024-05-02 23:01:19.115 INFO  (main) [   ] o.e.j.s.Server Started @2090ms
+2024-05-02 23:01:19.256 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.3.0
+2024-05-02 23:01:19.403 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.s.IndexSchema [presse] Schema name=default-config
+2024-05-02 23:01:19.749 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2024-05-02 23:01:19.784 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.c.CoreContainer Creating SolrCore 'presse' using configuration from instancedir /home/pernias/solr/server/solr/presse, trusted=true
+2024-05-02 23:01:19.805 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.presse' (registry 'solr.core.presse') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@53aac487
+2024-05-02 23:01:19.816 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.c.SolrCore [[presse] ] Opening new SolrCore at [/home/pernias/solr/server/solr/presse], dataDir=[/home/pernias/solr/server/solr/presse/data/]
+2024-05-02 23:01:19.841 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2024-05-02 23:01:20.292 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2024-05-02 23:01:20.292 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2024-05-02 23:01:20.315 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2024-05-02 23:01:20.315 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2024-05-02 23:01:20.422 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.s.SolrIndexSearcher Opening [Searcher@39942b88[presse] main]
+2024-05-02 23:01:20.437 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/pernias/solr/server/solr/presse/conf
+2024-05-02 23:01:20.464 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2024-05-02 23:01:20.472 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2024-05-02 23:01:20.484 INFO  (coreLoadExecutor-9-thread-1) [   x:presse] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2024-05-02 23:01:20.503 INFO  (searcherExecutor-10-thread-1-processing-x:presse) [   x:presse] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@39942b88[presse] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_5(8.3.0):C1476:[diagnostics={java.vendor=Ubuntu, os=Linux, java.version=11.0.22, java.vm.version=11.0.22+7-post-Ubuntu-0ubuntu222.04.1, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=11.0.22+7-post-Ubuntu-0ubuntu222.04.1, source=flush, os.version=5.15.146.1-microsoft-standard-WSL2, timestamp=1714689476121}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2024-05-02 23:01:20.503 INFO  (searcherExecutor-10-thread-1-processing-x:presse) [   x:presse] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2024-05-02 23:01:20.503 INFO  (searcherExecutor-10-thread-1-processing-x:presse) [   x:presse] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2024-05-02 23:01:20.514 INFO  (searcherExecutor-10-thread-1-processing-x:presse) [   x:presse] o.a.s.c.SolrCore [presse] Registered new searcher Searcher@39942b88[presse] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_5(8.3.0):C1476:[diagnostics={java.vendor=Ubuntu, os=Linux, java.version=11.0.22, java.vm.version=11.0.22+7-post-Ubuntu-0ubuntu222.04.1, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=11.0.22+7-post-Ubuntu-0ubuntu222.04.1, source=flush, os.version=5.15.146.1-microsoft-standard-WSL2, timestamp=1714689476121}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2024-05-02 23:01:25.898 INFO  (qtp570794077-47) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1714690885693} status=0 QTime=3
+2024-05-02 23:01:25.980 INFO  (qtp570794077-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1714690885694} status=0 QTime=67
+2024-05-02 23:01:25.997 INFO  (qtp570794077-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1714690885694} status=0 QTime=13
+2024-05-02 23:01:29.583 INFO  (qtp570794077-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1714690885693} status=0 QTime=0
+2024-05-02 23:01:29.606 INFO  (qtp570794077-25) [   x:presse] o.a.s.c.S.Request [presse]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1714690885694&ts=1714690885694} status=503 QTime=2
+2024-05-02 23:01:29.622 INFO  (qtp570794077-47) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1714690885694} status=0 QTime=39
+2024-05-02 23:01:29.629 INFO  (qtp570794077-27) [   x:presse] o.a.s.c.S.Request [presse]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1714690889574} status=0 QTime=3
+2024-05-02 23:01:29.640 INFO  (qtp570794077-28) [   x:presse] o.a.s.c.S.Request [presse]  webapp=/solr path=/replication params={wt=json&command=details&_=1714690889575} status=0 QTime=4
+2024-05-02 23:01:29.657 INFO  (qtp570794077-29) [   x:presse] o.a.s.c.S.Request [presse]  webapp=/solr path=/admin/system params={wt=json&_=1714690889575} status=0 QTime=16
+2024-05-02 23:01:33.004 INFO  (qtp570794077-30) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1714690885693} status=0 QTime=0
+2024-05-02 23:01:33.017 INFO  (qtp570794077-31) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1714690885694} status=0 QTime=12
+2024-05-02 23:01:40.330 INFO  (qtp570794077-54) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1714690885693} status=0 QTime=0
+2024-05-02 23:01:40.352 INFO  (qtp570794077-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1714690885694} status=0 QTime=15
+2024-05-02 23:01:40.365 INFO  (qtp570794077-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1714690885694} status=0 QTime=9
+2024-05-02 23:01:47.680 INFO  (qtp570794077-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1714690885693} status=0 QTime=0
+2024-05-02 23:01:47.709 INFO  (qtp570794077-27) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1714690885694} status=0 QTime=14
+2024-05-02 23:01:47.721 INFO  (qtp570794077-54) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1714690885694} status=0 QTime=7
+2024-05-02 23:01:51.599 INFO  (qtp570794077-27) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1714690885693} status=0 QTime=0
+2024-05-02 23:01:51.621 INFO  (qtp570794077-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1714690885694} status=0 QTime=12
+2024-05-02 23:01:51.638 INFO  (qtp570794077-54) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1714690885694} status=0 QTime=13
+2024-05-02 23:01:54.195 INFO  (qtp570794077-50) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1714690885693} status=0 QTime=0
+2024-05-02 23:01:54.211 INFO  (qtp570794077-25) [   x:presse] o.a.s.c.S.Request [presse]  webapp=/solr path=/replication params={wt=json&command=details&_=1714690889575} status=0 QTime=1
+2024-05-02 23:01:54.214 INFO  (qtp570794077-55) [   x:presse] o.a.s.c.S.Request [presse]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1714690885694&ts=1714690885694} status=503 QTime=0
+2024-05-02 23:01:54.220 INFO  (qtp570794077-26) [   x:presse] o.a.s.c.S.Request [presse]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1714690889574} status=0 QTime=0
+2024-05-02 23:01:54.230 INFO  (qtp570794077-47) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1714690885694} status=0 QTime=19
+2024-05-02 23:01:54.231 INFO  (qtp570794077-52) [   x:presse] o.a.s.c.S.Request [presse]  webapp=/solr path=/admin/system params={wt=json&_=1714690889575} status=0 QTime=18
+2024-05-02 23:01:55.784 INFO  (qtp570794077-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1714690885693} status=0 QTime=0
+2024-05-02 23:01:55.796 INFO  (qtp570794077-53) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1714690885694} status=0 QTime=11
+2024-05-02 23:01:58.296 INFO  (qtp570794077-47) [   x:presse] o.a.s.c.S.Request [presse]  webapp=/solr path=/select params={q=*:*&_=1714690892973} hits=1476 status=0 QTime=22
+2024-05-02 23:02:06.042 INFO  (qtp570794077-54) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1714690885693} status=0 QTime=0
+2024-05-02 23:02:06.075 INFO  (qtp570794077-27) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1714690885694} status=0 QTime=15
+2024-05-02 23:02:06.088 INFO  (qtp570794077-55) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1714690885694} status=0 QTime=9
+2024-05-02 23:02:53.856 INFO  (qtp570794077-47) [   x:presse] o.a.s.c.S.Request [presse]  webapp=/solr path=/browse params={q=text:cheval} hits=19 status=0 QTime=141
+2024-05-02 23:02:53.857 INFO  (qtp570794077-47) [   x:presse] o.a.s.c.PluginBag Going to create a new queryResponseWriter with {type = queryResponseWriter,name = velocity,class = solr.VelocityResponseWriter,attributes = {startup=lazy, name=velocity, class=solr.VelocityResponseWriter},args = {template.base.dir=,solr.resource.loader.enabled=true,params.resource.loader.enabled=false}} 
+2024-05-02 23:02:57.155 INFO  (qtp570794077-47) [   x:presse] o.a.s.c.S.Request [presse]  webapp=/solr path=/browse params={q=text:cheval&fq=category:"busines"} hits=0 status=0 QTime=14
+2024-05-02 23:02:57.171 ERROR (qtp570794077-47) [   x:presse] o.a.v.rendering Left side ($p.size()) of comparison operation has null value at _macros.vm[line 24, column 58]
+2024-05-02 23:02:57.179 ERROR (qtp570794077-47) [   x:presse] o.a.v.rendering Left side ($velocityCount) of comparison operation has null value at _macros.vm[line 11, column 53]
+2024-05-02 23:02:57.179 ERROR (qtp570794077-47) [   x:presse] o.a.v.rendering Left side ($velocityCount) of comparison operation has null value at _macros.vm[line 11, column 53]
+2024-05-02 23:03:02.633 INFO  (qtp570794077-27) [   x:presse] o.a.s.c.S.Request [presse]  webapp=/solr path=/browse params={q=text:cheval&fq=category:"health"} hits=6 status=0 QTime=44
+2024-05-02 23:03:02.673 ERROR (qtp570794077-27) [   x:presse] o.a.v.rendering Left side ($p.size()) of comparison operation has null value at _macros.vm[line 24, column 58]
+2024-05-02 23:03:02.676 ERROR (qtp570794077-27) [   x:presse] o.a.v.rendering Left side ($velocityCount) of comparison operation has null value at _macros.vm[line 11, column 53]
+2024-05-02 23:03:02.691 ERROR (qtp570794077-27) [   x:presse] o.a.v.rendering Left side ($velocityCount) of comparison operation has null value at _macros.vm[line 11, column 53]
+2024-05-02 23:03:02.691 ERROR (qtp570794077-27) [   x:presse] o.a.v.rendering Left side ($velocityCount) of comparison operation has null value at _macros.vm[line 11, column 53]
+2024-05-02 23:03:06.497 INFO  (qtp570794077-47) [   x:presse] o.a.s.c.S.Request [presse]  webapp=/solr path=/browse params={q=text:cheval&fq=category:"politic"} hits=4 status=0 QTime=14
+2024-05-02 23:03:06.514 ERROR (qtp570794077-47) [   x:presse] o.a.v.rendering Left side ($p.size()) of comparison operation has null value at _macros.vm[line 24, column 58]
+2024-05-02 23:03:06.516 ERROR (qtp570794077-47) [   x:presse] o.a.v.rendering Left side ($velocityCount) of comparison operation has null value at _macros.vm[line 11, column 53]
+2024-05-02 23:03:06.526 ERROR (qtp570794077-47) [   x:presse] o.a.v.rendering Left side ($velocityCount) of comparison operation has null value at _macros.vm[line 11, column 53]
+2024-05-02 23:03:06.527 ERROR (qtp570794077-47) [   x:presse] o.a.v.rendering Left side ($velocityCount) of comparison operation has null value at _macros.vm[line 11, column 53]
+2024-05-02 23:03:34.589 INFO  (qtp570794077-27) [   x:presse] o.a.s.c.S.Request [presse]  webapp=/solr path=/browse params={q=cheval} hits=19 status=0 QTime=24
+2024-05-02 23:04:39.128 INFO  (Thread-0) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@4f9a2c08{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2024-05-02 23:04:39.128 INFO  (Thread-0) [   ] o.e.j.s.session node0 Stopped scavenging
+2024-05-02 23:04:39.131 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1385750189
+2024-05-02 23:04:39.133 INFO  (coreCloseExecutor-15-thread-1) [   x:presse] o.a.s.c.SolrCore [presse]  CLOSING SolrCore org.apache.solr.core.SolrCore@7e4267a5
+2024-05-02 23:04:39.134 INFO  (coreCloseExecutor-15-thread-1) [   x:presse] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.presse, tag=SolrCore@7e4267a5
+2024-05-02 23:04:39.134 INFO  (coreCloseExecutor-15-thread-1) [   x:presse] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@19be9419: rootName = null, domain = solr.core.presse, service url = null, agent id = null] for registry solr.core.presse / com.codahale.metrics.MetricRegistry@47d642d2
+2024-05-02 23:04:39.177 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2024-05-02 23:04:39.178 INFO  (Thread-0) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@1e141e42: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@11910bd8
+2024-05-02 23:04:39.179 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2024-05-02 23:04:39.180 INFO  (Thread-0) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@36fc05ff: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@6c24b52
+2024-05-02 23:04:39.182 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2024-05-02 23:04:39.182 INFO  (Thread-0) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@57c47a9e: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@cc1d6d5
+2024-05-02 23:04:39.194 INFO  (Thread-0) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@463b4ac8{/solr,null,UNAVAILABLE}{/home/pernias/solr-8.3.0/server/solr-webapp/webapp}
